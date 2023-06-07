@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegraNegocio", "RegraNegocio\RegraNegocio.csproj", "{97BF8767-1386-409E-B18B-35C00BA8B0D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConexaoBD", "ConexaoBD\ConexaoBD.csproj", "{E9DD50DA-3D1B-4BA2-9F36-9781957CDC16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{97BF8767-1386-409E-B18B-35C00BA8B0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97BF8767-1386-409E-B18B-35C00BA8B0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97BF8767-1386-409E-B18B-35C00BA8B0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9DD50DA-3D1B-4BA2-9F36-9781957CDC16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DD50DA-3D1B-4BA2-9F36-9781957CDC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DD50DA-3D1B-4BA2-9F36-9781957CDC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9DD50DA-3D1B-4BA2-9F36-9781957CDC16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

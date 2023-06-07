@@ -45,7 +45,12 @@ namespace Interface
 
         private void btnSair_Click(object sender, EventArgs e)
         {
+            DialogResult sair = MessageBox.Show("Deseja sair?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
+            if (sair == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void btnSalvar_Click(object sender, EventArgs e)
@@ -88,6 +93,24 @@ namespace Interface
                 MessageBox.Show(erro.Message.ToString(), "Aviso", MessageBoxButtons.OK,
                 MessageBoxIcon.Exclamation);
             }
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtCodigo.Text.Equals("");
+            txtNome.Clear();
+            txtCep.Clear();
+            txtEmail.Clear();
+            txtEndereco.Clear();
+            txtNumero.Clear();
+            txtBairro.Clear();
+            txtCidade.Clear();
+            txtUF.Clear();
+            txtTelefone.Clear();
+            txtComplemento.Clear();
+            rdoFeminino.Checked = false;
+            rdoMasculino.Checked = false;
+
         }
     }
 }

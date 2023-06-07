@@ -67,7 +67,7 @@ namespace Interface
             // 
             // grpClientes
             // 
-            this.grpClientes.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.grpClientes.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.grpClientes.Controls.Add(this.txtComplemento);
             this.grpClientes.Controls.Add(this.rdoFeminino);
             this.grpClientes.Controls.Add(this.rdoMasculino);
@@ -339,6 +339,7 @@ namespace Interface
             this.btnLimpar.Size = new System.Drawing.Size(60, 59);
             this.btnLimpar.TabIndex = 2;
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnSair
             // 
@@ -387,8 +388,8 @@ namespace Interface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(811, 470);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(807, 453);
             this.Controls.Add(this.lblSair);
             this.Controls.Add(this.lblLimpar);
             this.Controls.Add(this.lblSalvar);
